@@ -1,0 +1,14 @@
+$kind: http-request
+description: ""
+url: http://localhost:4000/api/v1/posts/update/6aeeeec897e429c46ae19019
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \  \"description\": \"This post has been updated\",\r
+
+    \  \"age\": 22\r
+
+    }"
+order: 6000

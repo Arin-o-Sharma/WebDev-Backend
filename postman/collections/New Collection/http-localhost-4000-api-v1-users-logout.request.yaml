@@ -1,0 +1,13 @@
+$kind: http-request
+name: http://localhost:4000/api/v1/users/logout
+description: ""
+url: http://localhost:4000/api/v1/users/logout
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"email\": \"arin@example.com\"\r
+
+    }"
+order: 3000
